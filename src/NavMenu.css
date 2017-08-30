@@ -1,0 +1,9 @@
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu__item {
+    padding: 32px;
+    color: #556481;
+}

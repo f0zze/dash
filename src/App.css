@@ -1,3 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+input {
+  padding: 5px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 2px 12px 0 rgba(192, 192, 192, 0.5);
+}

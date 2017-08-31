@@ -1,17 +1,29 @@
-.nav {
+.main-nav {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 12px 0 rgba(192, 192, 192, 0.5);
 }
 
-.nav ul {
+.nav {
+    display: flex;
+    align-items: center;
+}
 
+.nav__logo {
+    display: flex;
+    width: 152px;
+    height: 28px;
 }
 
 .nav--left {
-
+    justify-content: flex-end;
 }
 
 .nav--right {
-
+    justify-content: flex-start;
 }
 
-/*menu*/
+.logo-search {
+    justify-content: center;
+}

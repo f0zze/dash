@@ -1,0 +1,17 @@
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    padding: 5px;
+    font-size: 14px;
+    color: #0096e6;
+    font-weight: bold;
+}
+
+.user-avatar {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+}

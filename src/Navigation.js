@@ -9,7 +9,7 @@ const Navigation = (props) => {
         <div className="main-nav">
             <div className="nav nav--left">
                 <div className="nav__logo">
-                    <div>Logo</div>
+                    <div>ecommpay</div>
                 </div>
                 <li className="nav__search">
                     <input placeholder="Search" type="input"/>

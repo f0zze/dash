@@ -6,8 +6,10 @@
     "react-scripts": "1.0.12"
   },
   "dependencies": {
+    "nivo": "^0.24.0",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-world-map": "^1.0.13"
   },
   "scripts": {
     "start": "react-scripts start",

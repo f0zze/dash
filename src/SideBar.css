@@ -1,0 +1,6 @@
+.side-menubar {
+    position: absolute;
+    width: 200px;
+    border:1px solid red;
+    padding-bottom: 60px;
+}

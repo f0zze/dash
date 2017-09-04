@@ -1,28 +1,47 @@
 import React, {Component} from 'react';
 import Navigation from './Navigation';
-import WorldMap from 'react-world-map';
-import SideBar from './SideBar';
-import Panel from './Panel';
+import DepositTypes from './DepositTypes';
+import CardBrands from './CardBrands';
+import EscoBar from './EscoBar';
+import Map from './Map';
+import SideBar from './sidebar';
+import Card from './card';
 import './App.css';
 
 class App extends Component {
+
+
     render() {
         return (
             <div className="App">
-                <Navigation/>
+                <Navigation />
+                <SideBar />
                 <div className="container">
-                    <div className="row">
+                    <div className="row row-space">
                         <div className="col-12">
-                            <Panel title="Revenue Growth" hint={() => <div>Revenue euro</div>}>
-                                body
-                            </Panel>
+                            <Card title="REVENUE GROWTH">
+                                <EscoBar />
+                            </Card>
+                        </div>
+
+                    </div>
+                    <div className="row row-space">
+                        <div className="col-12">
+                            <Card title="REVENUE">
+                                <Map />
+                            </Card>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-12">
-                            <Panel title="Revenue" hint={() => <div>Revenue euro</div>}>
-                                <WorldMap />
-                            </Panel>
+                    <div className="row row-space">
+                        <div className="col-6">
+                            <Card title="CARD BRANDS">
+                                <CardBrands />
+                            </Card>
+                        </div>
+                        <div className="col-6">
+                            <Card title="DEPOSIT TYPES">
+                                <DepositTypes />
+                            </Card>
                         </div>
                     </div>
                 </div>

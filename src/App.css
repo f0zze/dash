@@ -10,3 +10,7 @@ input {
   border-radius: 2px;
   box-shadow: 0 2px 12px 0 rgba(192, 192, 192, 0.5);
 }
+
+.row-space {
+  margin-bottom: 32px;
+}

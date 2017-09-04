@@ -1,0 +1,17 @@
+.char-num {
+    padding: 12px 15px;
+}
+
+.char-num-header {
+    color: #556481;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.chart-num-body {
+    font-size: 111px;
+}
+
+.num-space {
+    margin-bottom: 16px;
+}

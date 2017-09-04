@@ -1,8 +1,7 @@
 import React from 'react';
 import './Navigation.css';
 import NavMenu from './NavMenu';
-import Avatart from './User';
-import LogoSrc from './ecommpay.png';
+import User from './User';
 
 const Navigation = (props) => {
     return (
@@ -17,7 +16,7 @@ const Navigation = (props) => {
             </div>
             <div className="nav nav--right">
                 <NavMenu/>
-                <Avatart/>
+                <User/>
             </div>
         </div>
     );

@@ -8,8 +8,10 @@ class CardBrands extends React.Component {
             bindto:this.char,
             data: {
                 columns: [
-                    ['data1', 30],
-                    ['data2', 120],
+                    ['VISA', 3000],
+                    ['MASTERCARD', 1500],
+                    ['MAESTRO', 2500],
+                    ['MIR', 1400],
                 ],
                 type: 'pie'
             }

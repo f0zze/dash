@@ -6,6 +6,8 @@
     "react-scripts": "1.0.12"
   },
   "dependencies": {
+    "c3": "^0.4.17",
+    "classnames": "^2.2.5",
     "datamaps": "^0.5.8",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"

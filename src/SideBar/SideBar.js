@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideBar.css';
+import './style.css';
 
 const options = ['Analytics', 'Projects', 'Payments', 'Finance', 'Risk-management', 'Customers', 'Support'];
 

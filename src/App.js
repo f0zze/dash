@@ -8,6 +8,7 @@ import Map from './Map';
 import SideBar from './SideBar';
 import Card from './Card';
 import RecepiensView from './views/receipiens';
+import DashboardHotSport from './views/DashboardHotSport';
 import './App.css';
 
 class App extends Component {
@@ -55,6 +56,12 @@ class App extends Component {
         );
     };
 
+    view3 = () => {
+        return <div className="container">
+            <DashboardHotSport />
+        </div>
+    };
+
 
     render() {
         return (
@@ -63,7 +70,7 @@ class App extends Component {
                     <Navigation />
                 </div>
                 <SideBar />
-                {this.view2()}
+                {this.view3()}
             </div>
         );
     }

@@ -10,11 +10,37 @@
     height: 100px;
 }
 
+.stat-title {
+    color: #8d8d8d;
+    font-size: 10px;
+    padding: 20px;
+}
+.stat-si-num {
+    font-size: 14px;
+    color: #556481;
+    padding: 0 20px;
+}
+
+
+.chart-head {
+    color: #8d8d8d;
+    font-size: 10px;
+    margin: 19px 16px 0;
+    background-color: #fff;
+}
+.stats-300 {
+    height: 300px;
+}
+.stats-300 img {
+    margin-top: 10px;
+}
+
 .stats-full {
     align-items: stretch;
 }
 
 .stats {
+    overflow: hidden;
     width: 100%;
     border-radius: 4px;
     background-color: rgb(250, 251, 251);

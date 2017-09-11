@@ -1,19 +1,22 @@
 import React from 'react';
 import c3 from 'c3';
 
-class Spline extends React.Component {
+class Bar extends React.Component {
+
+    static defaultProps = {
+        width: 10
+    };
 
     componentDidMount() {
         this.test = c3.generate({
             bindto: this.char,
-            colors: {
-                data1: '#ff0000',
-            },
             data: {
-                columns: [
-                    ['Transaction amount', 30, 200, 100, 400, 150, 250, 30, 200, 100, 400, 150, 250]
-                ],
-                type: 'spline'
+                columns: this.props.data,
+                type: 'bar'
+            },
+            bar: {
+                width: this.props.width
+
             }
         });
     }
@@ -26,4 +29,4 @@ class Spline extends React.Component {
     }
 }
 
-export default Spline;
+export default Bar;

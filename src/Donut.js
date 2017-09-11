@@ -7,12 +7,10 @@ class Donut extends React.Component {
         this.test = c3.generate({
             bindto:this.char,
             data: {
-                columns: [
-                    ['data1', 30],
-                    ['data2', 120]
-                ],
+                columns: this.props.data,
                 type: 'donut'
-            }
+            },
+            donut: { width: 52 }
         });
     }
 

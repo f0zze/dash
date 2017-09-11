@@ -1,14 +1,11 @@
 import React, {Component} from 'react';
-import Navigation from './Navigation';
 import DepositTypes from './DepositTypes';
 import CardBrands from './CardBrands';
 import EscoBar from './EscoBar';
-import Popup from './Popup';
 import Map from './Map';
-import SideBar from './SideBar';
 import Card from './Card';
-import RecepiensView from './views/receipiens';
 import DashboardHotSport from './views/DashboardHotSport';
+
 import './App.css';
 
 class App extends Component {
@@ -46,16 +43,6 @@ class App extends Component {
         );
     };
 
-    view2 = () => {
-        return (
-            <div className="cover">
-                <Popup width={900} title="RECEIPT CUSTOMIZATION" open={true}>
-                    <RecepiensView />
-                </Popup>
-            </div>
-        );
-    };
-
     view3 = () => {
         return <div className="container">
             <DashboardHotSport />
@@ -66,10 +53,6 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <div className="row-space">
-                    <Navigation />
-                </div>
-                <SideBar />
                 {this.view3()}
             </div>
         );

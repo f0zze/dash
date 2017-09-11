@@ -89,7 +89,12 @@ const DashboardHotSpot = (props) => {
                     <div className="col-3">
                         <div className="row">
                             <div className="col-12 stat-card">
-                                <img src={bar} alt=""/>
+                                <div className="stats">
+                                    <div className="chart-head">
+                                        Avg of unique count transaction volume
+                                    </div>
+                                    <img src={bar} alt=""/>
+                                </div>
                             </div>
                             <div className="col-12 stat-card">
                                 <div className="stats stats-100">
